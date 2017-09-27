@@ -1,0 +1,34 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+pedals.name=Pedal Controller
+
+pedals.upload.tool=avrdude
+pedals.upload.protocol=avr109
+pedals.upload.maximum_size=28672
+pedals.upload.maximum_data_size=2560
+pedals.upload.speed=57600
+pedals.upload.disable_flushing=true
+pedals.upload.use_1200bps_touch=true
+pedals.upload.wait_for_upload_port=true
+
+pedals.bootloader.tool=avrdude
+pedals.bootloader.low_fuses=0xff
+pedals.bootloader.high_fuses=0xd8
+pedals.bootloader.extended_fuses=0xcb
+pedals.bootloader.file=caterina/Caterina-Leonardo.hex
+pedals.bootloader.unlock_bits=0x3F
+pedals.bootloader.lock_bits=0x2F
+
+pedals.build.mcu=atmega32u4
+pedals.build.f_cpu=16000000L
+pedals.build.vid=0x9999
+pedals.build.pid=0x9999
+pedals.build.usb_product="Pedal Controller"
+pedals.build.board=AVR_LEONARDO
+pedals.build.core=arduino
+pedals.build.variant=leonardo
+pedals.build.extra_flags={build.usb_flags}
