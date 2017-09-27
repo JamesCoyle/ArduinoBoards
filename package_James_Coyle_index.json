@@ -11,7 +11,7 @@
 					"architecture": "avr",
 					"version": "0.1",
 					"category": "Contributed",
-					"url": "http://downloads.arduino.cc/cores/avr-1.6.20.tar.bz2",
+					"url": "https://raw.githubusercontent.com/JamesCoyle/ArduinoBoards/master/avr.tar.bz2",
 					"archiveFileName": "avr-1.6.20.tar.bz2",
 					"boards": [
 						{
