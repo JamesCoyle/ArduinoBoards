@@ -10,3 +10,12 @@ I'm just using the vendor id as the product id's aren't likely to clash with oth
 If anyone has a better solution for this (a better vid where I can use a range of pids) let me know.
 
 If you wish to use this code in your own project, I'd recommend changing at least the pid's to try and avoid clashes. 
+
+# Installation
+
+1. Install the latest version of the Arduino IDE
+2. Go to `File -> Preferences`
+3. Paste the URL to the [RAW package JSON file](https://raw.githubusercontent.com/JamesCoyle/ArduinoBoards/master/package_James_Coyle_index.json) into the `Additional Board Managers` field. You can add more than one URL by clicking the button on the right and pasting in a comma separated list of URLs.
+4. Go to `Tools -> Board` as if you are selecting a different board type.
+5. Choose `Boards Manager...`
+6. Search for `James Coyle` and click install.
